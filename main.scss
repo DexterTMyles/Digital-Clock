@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+
+  #clock {
+    padding: 3rem;
+    font-family: "Orbitron", sans-serif;
+    font-size: 5rem;
+    color: #32cd32;
+    -webkit-box-shadow: 10px 4px 50px 43px rgba(64, 255, 0, 1);
+    -moz-box-shadow: 10px 4px 50px 43px rgba(64, 255, 0, 1);
+    box-shadow: 10px 4px 50px 43px rgba(64, 255, 0, 1);
+  }
+
+  h1 {
+    text-shadow: 5px 5px #afffaf;
+    position: relative;
+    bottom: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 5rem;
+    color: #32cd32;
+  }
+
+  div {
+    position: relative;
+    bottom: 3rem;
+  }
+
+  img {
+    width: 150px;
+    position: relative;
+    right: 5rem;
+  }
+}
