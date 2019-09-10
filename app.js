@@ -7,11 +7,10 @@ function showTime() {
   let formatHours = convertFormat(hours);
 
   hours = checkTime(hours);
-  /*
-  hours = addZero(hours);
-  minutes = minutes;
-  seconds = seconds;
-  */
+
+  hours = hours;
+  minutes = addZero(minutes);
+  seconds = addZero(seconds);
 
   document.getElementById(
     "clock"
